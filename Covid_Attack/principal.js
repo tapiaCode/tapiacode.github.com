@@ -58,6 +58,7 @@ var jungle = this.sound.add('tone');
         });
 // CARGAMOS LAS PUNTUACIONES Y TEXTOS
 puntos = this.add.text(10, 10, 'PUNTOS: 0', { font: '40px Courier', fill: '#ffff00'});
+firma = this.add.text(10, 665, 'tapiaCode', { font: '40px Courier', fill: '#ffff00'});
 this.add.text(497, 13, 'MATA EL VIRUS "NO TE ENFERMES"', { font: '40px Cooper Black', fill: '#000000'});
 titulo = this.add.text(500, 10, 'MATA EL VIRUS "NO TE ENFERMES"', { font: '40px Cooper Black', fill: '#FFFFFF'});
 gameOver = this.add.text(100, 300, '', { font: '40px Arial', fill: '#ffff00'});
